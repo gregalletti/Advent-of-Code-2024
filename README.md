@@ -5,8 +5,8 @@ Solutions are written in **Python** 🐍.
 
 Each day has two parts, and the solutions are both written in the same file named as `/solutions/YEAR_DAY.py`
 
-`utils.py` contains help functions like automatic download of the input file, better print, etc.
-`template.py` contains the basic structure for each day's solution file.
+- `utils.py` contains help functions like automatic download of the input file, better print, etc.
+- `template.py` contains the basic structure for each day's solution file.
 
 ## TODO
 Publish **Java** ♨️ version as well
