@@ -1,5 +1,5 @@
 # 🎄🎄 Advent of Code 🎄🎄
-This repository contains the solutions to the [Advent of Code](https://adventofcode.com/) 2025 challenge.
+This repository contains the solutions to the [Advent of Code](https://adventofcode.com/) 2024 challenge.
 
 Solutions are written in **Python** 🐍. 
 
