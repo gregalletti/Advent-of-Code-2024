@@ -1,4 +1,4 @@
 inputs/
 __pycache__/
 myenv/
-temp.py
+data.py

@@ -1,7 +1,7 @@
 import requests
-from temp import SESSION
+from data import SESSION
 
-# styles for print
+# Styles for print
 class bcolors:
     OKPURPLE = '\033[95m'
     OKCYAN = '\033[96m'

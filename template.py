@@ -1,29 +1,24 @@
 import time
-from utils import print_blue, print_purple, download_input
-import os.path
+from utils import print_blue, print_purple
+from data import YEAR, DAY
 
-# setup
-YEAR = 2024
-DAY = 5
+# Setup
 start_time = time.time()
 path = f"./inputs/{YEAR}_{DAY}.txt"
 
-if not os.path.isfile(path):
-    download_input(YEAR, DAY)
-
-# common
+# Common
 def common_function():
     pass
 
-# part 1
+# Part 1
 def part_1():
     pass
 
-# part 2
+# Part 2
 def part_2():
     pass
 
-# parsing and execution
+# Parsing and execution
 with open(path) as f:
     input = (f.read().splitlines())
     

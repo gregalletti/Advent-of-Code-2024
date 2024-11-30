@@ -6,6 +6,7 @@ Solutions are written in **Python** 🐍.
 Daily challenges usually have two parts, and the solutions are both written in the same file named as `/solutions/YEAR_DAY.py`
 
 - `template.py` contains the basic structure for each day's solution file.
+- `init.py` contains automatic creation of solution file starting from template file.
 - `utils.py` contains help functions like automatic download of the input file, better print, etc.
 
 ## TODO
