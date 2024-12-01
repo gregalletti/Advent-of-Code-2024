@@ -1,6 +1,6 @@
-from utils import download_input
-from data import YEAR, DAY
+from data import YEAR, DAY, SESSION
 import os.path
+import requests
 
 # Create the solution file
 template_path = "template.py"
@@ -15,6 +15,12 @@ with open(solution_path, 'w') as solution_file:
 print(f"Content of '{template_path}' copied to '{solution_path}'")
 
 # Download the input file
+def download_input(year, day):
+    url = f"https://adventofcode.com/{year}/day/{day}/input"
+    r = requests.get(url, cookies={'session': SESSION})
+    with open(f"./inputs/{year}_{day}.txt", "w" ) as f:
+        f.write(r.text)
+
 input_path = f"./inputs/{YEAR}_{DAY}.txt"
 
 if not os.path.isfile(input_path):
