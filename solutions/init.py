@@ -4,7 +4,7 @@ import requests
 
 # Create the solution file
 template_path = "template.py"
-solution_path = f"./solutions/{YEAR}_{DAY}.py"
+solution_path = f"./{YEAR}_{DAY}.py"
 
 with open(template_path, 'r') as template_file:
     content = template_file.read()
@@ -21,7 +21,7 @@ def download_input(year, day):
     with open(f"./inputs/{year}_{day}.txt", "w" ) as f:
         f.write(r.text)
 
-input_path = f"./inputs/{YEAR}_{DAY}.txt"
+input_path = f"../inputs/{YEAR}_{DAY}.txt"
 
 if not os.path.isfile(input_path):
     download_input(YEAR, DAY)
