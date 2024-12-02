@@ -18,7 +18,7 @@ print(f"Content of '{template_path}' copied to '{solution_path}'")
 def download_input(year, day):
     url = f"https://adventofcode.com/{year}/day/{day}/input"
     r = requests.get(url, cookies={'session': SESSION})
-    with open(f"./inputs/{year}_{day}.txt", "w" ) as f:
+    with open(f"../inputs/{year}_{day}.txt", "w" ) as f:
         f.write(r.text)
 
 input_path = f"../inputs/{YEAR}_{DAY}.txt"
