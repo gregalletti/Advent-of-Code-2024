@@ -4,7 +4,7 @@ from data import YEAR, DAY
 
 # Setup
 start_time = time.time()
-path = f"./inputs/{YEAR}_{DAY}.txt"
+path = f"../inputs/{YEAR}_{DAY}.txt"
 
 # Common
 def common_function():
